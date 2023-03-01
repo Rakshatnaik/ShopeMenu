@@ -1,0 +1,91 @@
+body{
+    /* background-color: #898121; */
+    /* background-image: url("./images/mango3.jpg"); */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/mango3.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+h1,h2,p{
+    text-align:center;
+}
+h1,h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 30px;
+}
+hr{
+    height: 4px;
+    background-color: #755528;
+    margin:0 20px;
+    border: none;
+}
+.icon{
+    font-size: 25px;
+    margin-top:-25px
+  }
+
+.menu{
+    width:80%;
+    background-color: #d99629;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    max-width: 500px;
+    
+
+}
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.963)
+}
+.box{
+    margin: 0 20px;
+}
+.fruit, .fried{
+    text-align: left;
+    width: 75%;
+
+}
+.price{
+    text-align: right;
+    width: 25%;
+
+}
+.established{
+    font-style: italic;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: white;
+  }
+
+  .address{
+    margin-bottom: 5px;
+  }
+
